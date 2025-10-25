@@ -1,0 +1,16 @@
+gradio>=3.41.0,<3.50
+langchain>=1.0.0,<2.0
+langchain-community>=0.4.0,<0.5
+langchain-ollama
+chromadb>=0.4.1,<0.5
+PyPDF2==3.0.1
+unstructured==0.7.0
+transformers==4.34.0
+torch==2.1.0
+rank_bm25==0.2.2
+pypdf
+re
+pdf2image
+tabulate
+nltk
+datasets
