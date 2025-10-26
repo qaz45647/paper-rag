@@ -1,6 +1,6 @@
 ## paper-rag
 
-本專案結合 LangChain 與 Ollama，打造專門針對學術論文與技術文件的 RAG 系統。採用結構化切割與混合檢索檢索的方式精準的從 PDF 內容提取相關知識，並針對文件內容的問答功能。
+本專案結合 LangChain 與 Ollama，打造專門針對學術論文與技術文件的 RAG 系統。採用結構化切割與混合檢索的方式精準的從 PDF 內容提取相關知識，並針對文件內容的問答功能。
 
 ![流程.png](/img/flow.png)
 
@@ -28,11 +28,12 @@ conda activate paper-rag
 pip install -r requirements.txt
 ```
 **Install Ollama:**
+
 從官方網站下載並安裝Ollama : https://ollama.com/download
 
 **Download Models via Ollama Command Line:**
 ```bash
-ollama pull llama3:8b 
+ollama pull llama3.2:1b
 ollama pull bge-m3
 ```
 **Usage:**
